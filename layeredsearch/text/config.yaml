@@ -1,0 +1,98 @@
+linkLevelMin: 1
+linkLevelMax: 2
+memSavingMethod: 1
+
+short: full-text search in Fusus al Hikam (Lakhnawi and Afifi)
+
+description: >-
+  <p>Full-text search (original arabic and several transcriptions)
+  in <a id="corpus2link" href="#"></a>.</p>
+  <p>This search interface is by:</p>
+  <ul>
+      <li><a id="author2link" href="#"></a> («author2.role»)
+      <li><a id="author1link" href="#"></a> («author1.role»)
+  </ul>
+
+defaultSettings:
+  autoexec: true
+  nodeseq: true
+  exporthl: true
+  exportsr: true
+  multihl: true
+  simple: false
+
+defaultFlags:
+  i: true
+  m: true
+  s: false
+
+keyboard:
+  '•': bullet
+  '≤': less than or equal
+  '≥': greater than or equal
+
+layerSettings:
+  word:
+    description: words
+    layers:
+      betalatin_lk:
+        default: ¿
+        afterFeature: punca
+        description: lakhnawi, beta code, latin with diacritics
+        feature: lettersn
+        pos: null
+        visible: true
+      betaascii_lk:
+        default: ¿
+        afterFeature: punca
+        description: lakhnawi, beta code, ascii
+        feature: lettersp
+        pos: null
+        visible: false
+      betalatin_af:
+        default: ¿
+        afterFeature: punca_af
+        description: afifi, beta code, latin with diacritics
+        feature: lettersn_af
+        pos: null
+        visible: true
+      betaascii_af:
+        default: ¿
+        afterFeature: punca_af
+        description: afifi, beta code, ascii
+        feature: lettersp_af
+        pos: null
+        visible: false
+  line:
+    description: physical lines in the printed edition
+    focus: true
+    afterDefault: "\n"
+    layers:
+      location:
+        default: -1
+        description: page number:line number within the page
+        feature: textloc
+        pos: null
+        visible: false
+  piece:
+    description: piece (i.e. bezel)
+    afterDefault: "\n"
+    layers:
+      bezel:
+        default: -1
+        description: bezel number, excluding introduction
+        feature: np
+        pos: null
+        visible: true
+      title:
+        default: ""
+        description: title of the piece
+        feature: title
+        pos: null
+        visible: true
+      number:
+        default: -1
+        description: piece number, including introduction
+        feature: n
+        pos: null
+        visible: false

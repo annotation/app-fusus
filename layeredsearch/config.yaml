@@ -1,0 +1,25 @@
+writing: "ara"
+
+data:
+  org: among
+  repo: fusus
+  rel: tf/Fusus
+  version: "0.7"
+  docUrl: 'https://«data.org».github.io/«data.repo»/fusus/about/transcription.html'
+
+corpus:
+  text: Fusus
+  url: 'https://«data.org».github.io/«data.repo»/fusus/assets/lakhnawi-with-toc'
+  tip: Online HTML as generated from PDF
+
+author1:
+  text: Cornelis van Lit
+  role: lead researcher
+  url: "https://digitalorientalist.com/about-cornelis-van-lit/"
+  tip: lead researcher
+
+author2:
+  text: Dirk Roorda
+  role: data modeler
+  url: "https://pure.knaw.nl/portal/en/persons/dirk-roorda"
+  tip: data modeler
