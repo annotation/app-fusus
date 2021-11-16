@@ -2,7 +2,7 @@
 
 # Fusus-Lakhnawi
 
-[![SWH](https://archive.softwareheritage.org/badge/origin/https://github.com/annotation/app-fususl/)](https://archive.softwareheritage.org/browse/origin/https://github.com/annotation/app-fususl/)
+[![SWH](https://archive.softwareheritage.org/badge/origin/https://github.com/annotation/app-fusus/)](https://archive.softwareheritage.org/browse/origin/https://github.com/annotation/app-fusus/)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5638342.svg)](https://doi.org/10.5281/zenodo.5638342)
 
